@@ -1,0 +1,10 @@
+PROGRAMMA DELLA FESTA DI SANTA MARIA
+
+1. Salva qui il PDF del programma con questo nome:
+   programma-festa-santa-maria-2027.pdf
+
+2. In index.html cerca il commento "SOSTITUIRE" vicino a id="programma-link" e:
+   - cambia href="#festa" in href="files/programma-festa-santa-maria-2027.pdf"
+   - cancella l'attributo data-placeholder="true"
+
+Finché il PDF non c'è, il pulsante mostra l'avviso "sarà pubblicato a breve".
