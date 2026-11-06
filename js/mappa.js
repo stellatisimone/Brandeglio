@@ -120,7 +120,7 @@
     { id: "canonica", group: "stays", cat: "stay", lat: 44.00126, lon: 10.638317, side: "r", stay: true,
       name: { it: "La Canonica", en: "La Canonica" },
       url: "https://to-tuscany.com/lacanonica/",
-      text: { it: "Villa in pietra all'estremità del paese: 6 camere, fino a 12 ospiti, piscina privata e giardino terrazzato. Consigliata dal Comitato.", en: "Stone villa at the edge of the village: 6 bedrooms, up to 12 guests, private pool and terraced garden. Recommended by the Committee." } },
+      text: { it: "Villa in pietra all'estremità del paese: 6 camere, fino a 12 ospiti, piscina privata e giardino terrazzato.", en: "Stone villa at the edge of the village: 6 bedrooms, up to 12 guests, private pool and terraced garden." } },
     { id: "villette", group: "stays", cat: "stay", lat: 44.001468, lon: 10.638874, side: "r", stay: true,
       name: { it: "Le villette di Brandeglio", en: "The Brandeglio cottages" },
       url: "https://to-tuscany.com/brandeglio/ciliegio",

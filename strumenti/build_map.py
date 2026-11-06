@@ -187,7 +187,7 @@ for key, r in routes.items():
     # GPX
     names = {"boveglio": "Brandeglio - Boveglio", "acquabuona": "Brandeglio - Rio dell'Acqua Buona", "rialto": "Crasciana - Acqua di Rialto"}
     gpx = ['<?xml version="1.0" encoding="UTF-8"?>',
-           '<gpx version="1.1" creator="Comitato di Valorizzazione Turistica di Brandeglio" xmlns="http://www.topografix.com/GPX/1/1">',
+           '<gpx version="1.1" creator="Brandeglio" xmlns="http://www.topografix.com/GPX/1/1">',
            f'<metadata><name>{names[key]}</name><copyright author="OpenStreetMap contributors"><license>https://opendatacommons.org/licenses/odbl/</license></copyright></metadata>',
            f'<trk><name>{names[key]}</name><trkseg>']
     for (la, lo), z in zip(dense, ele):

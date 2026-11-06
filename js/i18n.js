@@ -5,7 +5,7 @@
   "use strict";
 
   var EN = {
-    "brand.sub": "Tourism Promotion Committee",
+    "brand.sub": "A village in the Val di Lima",
     "nav.aria": "Sections",
     "nav.borgo": "The village",
     "nav.storia": "History",
@@ -13,7 +13,6 @@
     "nav.sentieri": "Trails",
     "nav.dormire": "Where to stay",
     "nav.festa": "Feast of Santa Maria",
-    "nav.contatti": "Contact",
 
     "hero.eyebrow": "Val di Lima · Bagni di Lucca (LU) · Tuscany",
     "hero.alt": "640 m above sea level",
@@ -99,8 +98,6 @@
     "festa.where": "Piazza Santa Maria and the church of Santa Maria Assunta, Brandeglio",
     "festa.when.k": "When",
     "festa.when": "From Thursday 12 to Monday 16 August 2027",
-    "festa.org.k": "Organised by",
-    "festa.org": "Brandeglio Tourism Promotion Committee",
 
     "natura.img": "The Lima stream flowing through the wooded valley",
     "natura.cap": "The Lima stream, on the valley floor below Brandeglio.",
@@ -140,7 +137,7 @@
     "dormire.eyebrow": "Where to stay",
     "dormire.title": "Stay a few days",
     "dormire.lead": "There are stone houses to rent in the village; shops and restaurants are in Bagni di Lucca, about 9 km away.",
-    "stay.badge": "Recommended by the Committee",
+    "stay.badge": "Recommended",
     "stay.c.text": "Two-storey stone villa at the edge of the village, with exposed beams, fireplaces and antique furniture. The terraced garden looks out over the woods and villages of the valley.",
     "stay.c.f1": "6 bedrooms, up to 12 guests",
     "stay.c.f2": "5 bathrooms",
@@ -156,31 +153,19 @@
     "stay.near": "Nearby",
     "stay.n1": "Farm stay with restaurant at Pian di Ospedaletto, about 7 km away.",
     "stay.n2": "Bed &amp; breakfast with spa in Casoli, in the Val di Lima.",
-    "stay.note": "The Committee does not handle bookings. Do you run a place to stay in or near Brandeglio? Write to us to be listed on this page.",
-
-    "comitato.eyebrow": "Who we are",
-    "comitato.title": "The Brandeglio Tourism Promotion Committee",
-    "comitato.p1": "We are a group of volunteers, residents and friends of the village. We organise the Feast of Santa Maria and the summer events, look after the shared spaces and work to make Brandeglio known to people who have never been here.",
-    "h1.title": "Volunteer with us",
-    "h1.text": "Cooking, setting up, serving at the tables: there is room for everyone during the feast.",
-    "h2.title": "Support the feast",
-    "h2.text": "Donations and sponsorship from local businesses cover the cost of the events.",
-    "h3.title": "Share Brandeglio's story",
-    "h3.text": "Photos, memories and stories of the village help us keep its memory alive. Write to us.",
-
-    "contatti.eyebrow": "Contact",
-    "contatti.title": "Write to us or come and visit",
-    "contatti.tel": "Phone",
-    "ph.email": "[committee email]",
-    "ph.tel": "[phone number]",
-    "ph.fb": "[Facebook page link]",
-    "ph.ig": "[Instagram profile link]",
-    "mappa.title": "Where we are",
-    "mappa.addr": "Piazza Santa Maria, Brandeglio<br>Bagni di Lucca (LU), Tuscany, Italy",
+    "stay.note": "This website does not handle bookings: contact the accommodation directly.",
+    "nav.dove": "Getting here",
+    "dove.eyebrow": "Getting here",
+    "dove.title": "How to reach Brandeglio",
+    "dove.lead": "The village's only road climbs from the Abetone–Brennero state road at Pian dell'Ospedaletto up to Piazza Santa Maria, the starting point for walks and the heart of the feast.",
+    "footer.privacy": "Privacy and cookies",
+    "footer.unofficial": "Unofficial information website, made by a private individual.",
+    "mappa.title": "Piazza Santa Maria",
+    "mappa.addr": "Brandeglio<br>Bagni di Lucca (LU), Tuscany, Italy",
     "mappa.dir": "Get directions",
     "mappa.osm": "Open the map",
 
-    "footer.org": "Brandeglio Tourism Promotion Committee · Bagni di Lucca (LU), Italy",
+    "footer.org": "Bagni di Lucca (LU) · Tuscany, Italy",
     "footer.photos": "Photos of the church and village: <a href=\"https://commons.wikimedia.org/wiki/Category:Santa_Maria_Assunta_(Brandeglio,_Bagni_di_Lucca)\" target=\"_blank\" rel=\"noopener\">Luciano Bernardi</a>, licensed <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons. Lima stream: <a href=\"https://commons.wikimedia.org/wiki/File:BagniDiLuccaLimaRiverBeforeBagni.JPG\" target=\"_blank\" rel=\"noopener\">LigaDue</a>, CC BY-SA 4.0. Images resized.",
     "footer.map": "Maps: data © <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap contributors</a> (ODbL); elevations <a href=\"https://www.opentopodata.org\" target=\"_blank\" rel=\"noopener\">Open Topo Data</a> / EU-DEM. Districts and historical notes: <a href=\"https://www.comunebagnidilucca.com/downloads/piano-operativo/QA%20-%20Quadro%20Archeologico/QA.VI_REPORT%20STORICI/2_Brandeglio.pdf\" target=\"_blank\" rel=\"noopener\">«Brandeglio» report by the Municipality of Bagni di Lucca</a>.",
     "footer.sources":"Sources: <a href=\"https://it.wikipedia.org/wiki/Brandeglio\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>, <a href=\"https://www.bagnidilucca.info/en/il-territorio-di-bagni-di-lucca/brandeglio\" target=\"_blank\" rel=\"noopener\">BagniDiLucca.info</a>, <a href=\"https://fondoambiente.it/luoghi/paese-di-brandeglio\" target=\"_blank\" rel=\"noopener\">FAI – I Luoghi del Cuore</a>."
@@ -194,7 +179,7 @@
       langGroup: "Lingua"
     },
     en: {
-      description: "Brandeglio, a village in the Val di Lima, 640 metres above Bagni di Lucca, Tuscany. History, sights and the Feast of Santa Maria, 12–16 August. By the Brandeglio Tourism Promotion Committee.",
+      description: "Brandeglio, a village in the Val di Lima, 640 metres above Bagni di Lucca, Tuscany. History, sights and the Feast of Santa Maria, 12–16 August.",
       pending: "The programme of the 2027 Feast of Santa Maria will be published here soon. Check back later!",
       langGroup: "Language"
     }

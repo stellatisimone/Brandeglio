@@ -463,40 +463,7 @@ p { margin: 0; }
 .nature-list li { display: grid; gap: 2px; padding-left: 16px; border-left: 2px solid var(--forest); }
 .nature-list strong { font-weight: 600; }
 
-/* ---------- Comitato ---------- */
-.help-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(16px, 3vw, 28px);
-  margin-top: 32px;
-}
-@media (max-width: 760px) { .help-grid { grid-template-columns: 1fr; } }
-.help-grid > div { display: grid; gap: 6px; align-content: start; padding-top: 14px; border-top: 2px solid var(--accent); }
-.help-grid p { color: var(--muted); }
-
-/* ---------- Contatti ---------- */
-.contact-list { list-style: none; margin: 0; padding: 0; display: grid; border-top: 1px solid var(--line); }
-.contact-list li {
-  display: grid;
-  grid-template-columns: 8rem minmax(0, 1fr);
-  gap: 16px;
-  padding-block: 14px;
-  border-bottom: 1px solid var(--line);
-  overflow-wrap: anywhere;
-}
-.contact-list .label { color: var(--muted); font-size: 0.95rem; }
-@media (max-width: 480px) { .contact-list li { grid-template-columns: 1fr; gap: 2px; } }
-
-.ph {
-  font-family: var(--font-data);
-  font-size: 0.9rem;
-  color: var(--ph);
-  background: var(--ph-bg);
-  border: 1px dashed var(--ph);
-  border-radius: 3px;
-  padding: 1px 6px;
-}
-
+/* ---------- Dove si trova ---------- */
 .map-card {
   background: var(--surface);
   border: 1px solid var(--line);
