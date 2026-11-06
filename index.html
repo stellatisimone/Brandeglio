@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brandeglio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Brandeglio, borgo della Val di Lima a 640 metri sopra Bagni di Lucca. Storia, luoghi da vedere e la Festa di Santa Maria, dal 12 al 16 agosto.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="header-row">
+      <a class="brand" href="#top">
+        <span class="brand-name">Brandeglio</span>
+        <span class="brand-sub" data-i18n="brand.sub">Borgo della Val di Lima</span>
+      </a>
+      <nav class="main-nav" aria-label="Sezioni" data-i18n-aria="nav.aria">
+        <a href="#borgo" data-i18n="nav.borgo">Il borgo</a>
+        <a href="#storia" data-i18n="nav.storia">Storia</a>
+        <a href="#contrade" data-i18n="nav.contrade">Contrade</a>
+        <a href="#sentieri" data-i18n="nav.sentieri">Sentieri</a>
+        <a href="#dormire" data-i18n="nav.dormire">Dove dormire</a>
+        <a href="#festa" class="nav-festa" data-i18n="nav.festa">Festa di Santa Maria</a>
+        <a href="#dove" data-i18n="nav.dove">Dove si trova</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Lingua / Language">
+        <button type="button" id="lang-it" data-lang="it" aria-pressed="true" lang="it">IT</button>
+        <button type="button" id="lang-en" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+    </div>
+    <nav class="nav-mobile main-nav" aria-label="Sezioni" data-i18n-aria="nav.aria">
+      <a href="#festa" class="nav-festa" data-i18n="nav.festa">Festa di Santa Maria</a>
+      <a href="#borgo" data-i18n="nav.borgo">Il borgo</a>
+      <a href="#storia" data-i18n="nav.storia">Storia</a>
+      <a href="#contrade" data-i18n="nav.contrade">Contrade</a>
+      <a href="#sentieri" data-i18n="nav.sentieri">Sentieri</a>
+      <a href="#dormire" data-i18n="nav.dormire">Dove dormire</a>
+      <a href="#dove" data-i18n="nav.dove">Dove si trova</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Val di Lima · Bagni di Lucca (LU) · Toscana</p>
+        <h1>Brandeglio</h1>
+        <div class="hero-coords">
+          <span data-i18n="hero.alt">640 m s.l.m.</span>
+          <span>44°00′ N · 10°38′ E</span>
+          <span data-i18n="hero.since">citato dal 918</span>
+        </div>
+        <p class="hero-lead" data-i18n="hero.lead">Un borgo di pietra sul crinale sopra la Val di Lima, tra boschi di castagni e ampie vedute sull'Appennino. Vie lastricate, un campanile merlato che domina il paese e una comunità che ogni agosto si ritrova per la Festa di Santa Maria.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#festa" data-i18n="hero.cta1">Festa di Santa Maria · 12–16 agosto</a>
+          <a class="btn btn-ghost" href="#borgo" data-i18n="hero.cta2">Scopri il borgo</a>
+        </div>
+      </div>
+      <figure class="hero-figure">
+        <img src="img/torre-vicolo.jpg" width="1000" height="1500" alt="Il campanile merlato di Brandeglio visto da un vicolo lastricato tra case di pietra" data-i18n-alt="hero.img">
+        <figcaption class="caption" data-i18n="hero.cap">Il campanile merlato della chiesa di Santa Maria Assunta.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- IL BORGO -->
+  <section class="section" id="borgo">
+    <div class="wrap split">
+      <div>
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="borgo.eyebrow">Il borgo</p>
+          <h2 data-i18n="borgo.title">Un paese sul monte, a nove chilometri dalle terme</h2>
+        </div>
+        <div class="prose">
+          <p data-i18n="borgo.p1">Brandeglio è una frazione del Comune di Bagni di Lucca. L'unica strada del paese si stacca dalla statale dell'Abetone e del Brennero a Pian dell'Ospedaletto e sale per circa sei chilometri nel bosco, tocca il primo nucleo abitato di Montaglioni e arriva in Piazza Santa Maria.</p>
+          <p data-i18n="borgo.p2">In piazza ci sono la fontana di acqua potabile, la Cappella della Madonna delle Grazie e il monumento ai caduti della Prima guerra mondiale. Da qui partono i vicoli di pietra che salgono verso la chiesa e il campanile.</p>
+          <p data-i18n="borgo.p3">Aria pulita, acqua limpida, silenzio e panorami: Brandeglio è adatto a chi ama camminare tra boschi e ruscelli, alle famiglie con bambini e a chi va in mountain bike.</p>
+        </div>
+        <div class="facts">
+          <div class="fact"><span class="fact-value">640 m</span><span class="fact-label" data-i18n="fact.alt">altitudine</span></div>
+          <div class="fact"><span class="fact-value">9 km</span><span class="fact-label" data-i18n="fact.bagni">da Bagni di Lucca</span></div>
+          <div class="fact"><span class="fact-value">30+ km</span><span class="fact-label" data-i18n="fact.lucca">da Lucca</span></div>
+        </div>
+        <ul class="route">
+          <li><span class="data" data-i18n="route.car.k">In auto</span><span data-i18n="route.car">Da Lucca prendi la SS12 per Bagni di Lucca e prosegui verso l'Abetone fino a Pian dell'Ospedaletto, poi segui le indicazioni per Brandeglio.</span></li>
+          <li><span class="data" data-i18n="route.train.k">In treno</span><span data-i18n="route.train">Stazione di Bagni di Lucca (Fornoli) sulla linea Lucca–Aulla, poi auto o taxi.</span></li>
+          <li><span class="data" data-i18n="route.plane.k">In aereo</span><span data-i18n="route.plane">Aeroporto di Pisa a circa un'ora d'auto, Firenze a circa un'ora e mezza.</span></li>
+        </ul>
+      </div>
+      <figure class="photo">
+        <img src="img/piazza-santa-maria.jpg" width="1600" height="1068" alt="Piazza Santa Maria con le case intonacate e il campanile sullo sfondo" data-i18n-alt="borgo.img">
+        <figcaption class="caption" data-i18n="borgo.cap">Piazza Santa Maria, dove arriva la strada e dove si fa festa.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- STORIA -->
+  <section class="section" id="storia">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="storia.eyebrow">Storia</p>
+        <h2 data-i18n="storia.title">Mille anni di storia scritti nella pietra</h2>
+      </div>
+      <div class="timeline-layout">
+        <div>
+          <ol class="timeline">
+            <li><span class="when">918 · 950 · 985</span><p data-i18n="tl.1">Le pergamene dell'Archivio di Lucca citano Brandeglio come villa della pieve di San Quirico e Giulitta di Casabasciana.</p></li>
+            <li><span class="when">1260</span><p data-i18n="tl.1b">Prima menzione della chiesa di Santa Maria di Brandeglio e dell'ospedale di Cruciana, ricovero per i viandanti lungo la via che dal fondovalle saliva al paese e proseguiva per le Pizzorne.</p></li>
+            <li><span class="when">1308</span><p data-i18n="tl.2">Brandeglio è uno dei quindici comuni della Vicaria della Val di Lima, soggetta a Lucca. In precedenza il paese era stato una roccaforte della famiglia Lupari, poi allontanata dai lucchesi.</p></li>
+            <li><span class="when">1312 · 1398</span><p data-i18n="tl.2b">Il «Castrum Brandelli» compare tra i castelli fedeli all'imperatore Enrico VII. Nel 1398 il cronista Giovanni Sercambi lo elenca tra le fortezze da tenere sempre pronte sul confine con Firenze.</p></li>
+            <li><span class="when" data-i18n="tl.3.k">XV secolo</span><p data-i18n="tl.3">Il vicario confina in Maremma alcuni abitanti giudicati troppo turbolenti. Nel 1467 l'ospedale di Cruciana è ormai diroccato e usato come stalla.</p></li>
+            <li><span class="when" data-i18n="tl.5.k">XVI secolo</span><p data-i18n="tl.5">Sorge sulla piazza la Cappella della Madonna delle Grazie. Fra i ruderi dell'antica chiesa di San Michele e dello Spirito Santo, detta «Al Santo», vive ancora un eremita.</p></li>
+            <li><span class="when">1546</span><p data-i18n="tl.4">Giovanni Maria Graziani firma e data la pala dell'Assunzione della Vergine, ancora oggi sull'altare maggiore.</p></li>
+            <li><span class="when">1553</span><p data-i18n="tl.4b">Il vescovo trova nel centro del paese la nuova chiesa di Santa Maria, costruita «per maggior comodità del popolo». L'antica parrocchiale, a mezzo miglio, era abbandonata da tempo immemorabile.</p></li>
+            <li><span class="when" data-i18n="tl.6.k">XVII secolo</span><p data-i18n="tl.6">La chiesa si dota dell'organo che si può ascoltare ancora oggi.</p></li>
+            <li><span class="when">1772</span><p data-i18n="tl.7">Viene redatto lo statuto della comunità, l'unico documento superstite dell'archivio comunale.</p></li>
+            <li><span class="when">1902 – 1903</span><p data-i18n="tl.8">La ditta Poali riadatta l'organo senza alterarne il suono. Nel 1903 la chiesa viene rimaneggiata e si comincia a costruire il campanile merlato.</p></li>
+          </ol>
+          <div class="people">
+            <h3 data-i18n="people.title">Personaggi legati al paese</h3>
+            <ul>
+              <li><span data-i18n="people.1">Padre Giovanni Maria Cioni di S. Ignazio Martire</span> <span class="data">1727–1796</span></li>
+              <li><span data-i18n="people.2">Padre Raffaello Iacomini, missionario francescano</span> <span class="data">1785–1844</span></li>
+              <li><span data-i18n="people.3">Mons. Filippo Franceschi, vescovo di Padova</span> <span class="data">1924–1988</span></li>
+            </ul>
+          </div>
+        </div>
+        <figure class="photo">
+          <img src="img/arco-torre.jpg" width="867" height="1300" alt="Passaggio ad arco in pietra sotto un edificio, con il campanile merlato sullo sfondo" data-i18n-alt="storia.img">
+          <figcaption class="caption" data-i18n="storia.cap">Case in pietra e passaggi ad arco nel cuore del paese.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DA VEDERE -->
+  <section class="section" id="vedere">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="vedere.eyebrow">Da vedere</p>
+        <h2 data-i18n="vedere.title">Una passeggiata nel paese</h2>
+      </div>
+      <article class="feature">
+        <img src="img/chiesa-altare.jpg" width="1600" height="1068" loading="lazy" alt="L'altare maggiore della chiesa di Santa Maria Assunta con la pala dell'Assunzione" data-i18n-alt="s1.img">
+        <div class="feature-text">
+          <h3 data-i18n="s1.title">Chiesa di Santa Maria Assunta</h3>
+          <p data-i18n="s1.text">Tre navate, un antico fonte battesimale e un organo del Seicento. Sull'altare maggiore, la pala dell'Assunzione di Giovanni Maria Graziani del 1546.</p>
+          <p class="caption" data-i18n="s1.note">Ricordata dal 1260, è la chiesa della Festa di Santa Maria. Secondo alcuni studiosi conserva l'abside di un'antica chiesa di Sant'Anna.</p>
+        </div>
+      </article>
+      <div class="minor-sights">
+        <div>
+          <h3 data-i18n="s2.title">Piazza Santa Maria</h3>
+          <p data-i18n="s2.text">Il cuore del paese e della festa. Si affacciano la Cappella della Madonna delle Grazie, detta «La Margine», e la fontana con l'iscrizione del latinista F. Cianelli.</p>
+        </div>
+        <div>
+          <h3 data-i18n="s3.title">Il campanile merlato</h3>
+          <p data-i18n="s3.text">Costruito dal 1903 in cima al colle, si vede da tutta la valle. Da qui lo sguardo spazia sui boschi della Val di Lima e sui crinali dell'Appennino.</p>
+        </div>
+        <div>
+          <h3 data-i18n="m1.title">Ruderi «Al Santo»</h3>
+          <p data-i18n="m1.text">Sotto il paese restano le rovine della chiesa di San Michele e dello Spirito Santo, probabilmente l'antica parrocchiale di Brandeglio.</p>
+        </div>
+        <div>
+          <h3 data-i18n="m2.title">Monumento ai caduti</h3>
+          <p data-i18n="m2.text">In piazza, ricorda i paesani caduti nella Prima guerra mondiale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRADE -->
+  <section class="section" id="contrade">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="contrade.eyebrow">Le contrade</p>
+        <h2 data-i18n="contrade.title">Il paese, contrada per contrada</h2>
+        <p class="lead" data-i18n="contrade.lead">Alla Piazza, Al Pozzo, Alla Croce, Alla Porta: i nomi delle contrade raccontano il borgo fortificato che Brandeglio è stato. Esplora la mappa per scoprire dove si trovano e che cosa ricordano.</p>
+      </div>
+      <div data-map="paese">
+        <noscript><p data-i18n="map.noscript">Per vedere la mappa interattiva serve JavaScript.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- SENTIERI -->
+  <section class="section" id="sentieri">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="sentieri.eyebrow">Natura e sentieri</p>
+        <h2 data-i18n="sentieri.title">Sentieri nel bosco</h2>
+        <p class="lead" data-i18n="sentieri.lead">Intorno a Brandeglio mulattiere e sentieri attraversano i castagneti e scendono verso i torrenti. Tre itinerari: due partono dalla piazza, il terzo da Crasciana.</p>
+      </div>
+      <div class="trail-cards">
+        <article class="trail-card c1">
+          <p class="trail-from" data-i18n="tc.1.k">Dalla piazza</p>
+          <h3 data-i18n="tc.1.title">Brandeglio – Boveglio</h3>
+          <p data-i18n="tc.1.text">Mulattiere nel bosco di castagni fino a circa 750 metri, poi la discesa sul paese di Boveglio, lungo l'antica via per le Pizzorne.</p>
+          <dl class="trail-facts">
+            <div><dt data-i18n="tf.km">Distanza</dt><dd>5,2 km</dd></div>
+            <div><dt data-i18n="tf.updown">Dislivello</dt><dd>+270 / −230 m</dd></div>
+            <div><dt data-i18n="tf.rt">Andata e ritorno</dt><dd>~4 h 15 min</dd></div>
+          </dl>
+          <button type="button" class="btn btn-ghost btn-sm" data-map-show="sentieri" data-item="boveglio" data-i18n="tf.show">Vedi sulla mappa</button>
+        </article>
+        <article class="trail-card c2">
+          <p class="trail-from" data-i18n="tc.2.k">Dalla piazza</p>
+          <h3 data-i18n="tc.2.title">Brandeglio – Rio dell'Acqua Buona</h3>
+          <p data-i18n="tc.2.text">Breve discesa nel bosco verso nord, passando vicino ai ruderi del Santo, fino al torrente. Il ritorno è in salita.</p>
+          <dl class="trail-facts">
+            <div><dt data-i18n="tf.km">Distanza</dt><dd>1,3 km</dd></div>
+            <div><dt data-i18n="tf.updown">Dislivello</dt><dd>+20 / −110 m</dd></div>
+            <div><dt data-i18n="tf.rt">Andata e ritorno</dt><dd>~1 h 5 min</dd></div>
+          </dl>
+          <button type="button" class="btn btn-ghost btn-sm" data-map-show="sentieri" data-item="acquabuona" data-i18n="tf.show">Vedi sulla mappa</button>
+        </article>
+        <article class="trail-card c3">
+          <p class="trail-from" data-i18n="tc.3.k">Da Crasciana, in auto</p>
+          <h3 data-i18n="tc.3.title">Crasciana – Acqua di Rialto</h3>
+          <p data-i18n="tc.3.text">Dall'imbocco della Via di Rialto, una carrareccia e un sentiero a mezza costa nella valle dove nasce l'Acqua di Rialto.</p>
+          <dl class="trail-facts">
+            <div><dt data-i18n="tf.km">Distanza</dt><dd>1,4 km</dd></div>
+            <div><dt data-i18n="tf.updown">Dislivello</dt><dd>+60 / −120 m</dd></div>
+            <div><dt data-i18n="tf.rt">Andata e ritorno</dt><dd>~1 h 20 min</dd></div>
+          </dl>
+          <button type="button" class="btn btn-ghost btn-sm" data-map-show="sentieri" data-item="rialto" data-i18n="tf.show">Vedi sulla mappa</button>
+        </article>
+      </div>
+      <div data-map="sentieri">
+        <noscript><p data-i18n="map.noscript2">Per vedere la mappa interattiva serve JavaScript.</p></noscript>
+      </div>
+      <div class="split more-nature">
+        <figure class="photo">
+          <img src="img/torrente-lima.jpg" width="1600" height="1200" loading="lazy" alt="Il torrente Lima che scorre tra i boschi della valle" data-i18n-alt="natura.img">
+          <figcaption class="caption" data-i18n="natura.cap">Il torrente Lima, nel fondovalle sotto Brandeglio.</figcaption>
+        </figure>
+        <div>
+          <h3 data-i18n="natura.more">Altre idee nei dintorni</h3>
+          <ul class="nature-list">
+            <li><strong data-i18n="n2.title">Mountain bike</strong><span data-i18n="n2.text">Strade forestali e sterrate con dislivelli importanti e panorami sull'Appennino.</span></li>
+            <li><strong data-i18n="n3.title">Monte Prato Fiorito</strong><span data-i18n="n3.text">Una delle cime più belle della valle, celebre per le fioriture di primavera e la vista a 360° su Garfagnana, Apuane e Appennino.</span></li>
+            <li><strong data-i18n="n4.title">Il fondovalle del Lima</strong><span data-i18n="n4.text">Il torrente, i ponti storici e le terme di Bagni di Lucca, a pochi minuti d'auto.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOVE DORMIRE -->
+  <section class="section" id="dormire">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="dormire.eyebrow">Dove dormire</p>
+        <h2 data-i18n="dormire.title">Restare qualche giorno</h2>
+        <p class="lead" data-i18n="dormire.lead">In paese ci sono case in pietra da affittare; negozi e ristoranti sono a Bagni di Lucca, a circa 9 km.</p>
+      </div>
+      <div class="stays">
+        <article class="stay stay-featured">
+          <p class="stay-badge" data-i18n="stay.badge">Consigliata</p>
+          <h3>La Canonica</h3>
+          <p data-i18n="stay.c.text">Villa in pietra su due piani all'estremità del paese, con travi a vista, camini e mobili antichi. Dal giardino terrazzato si vedono i boschi e i borghi della valle.</p>
+          <ul class="stay-facts">
+            <li data-i18n="stay.c.f1">6 camere, fino a 12 ospiti</li>
+            <li data-i18n="stay.c.f2">5 bagni</li>
+            <li data-i18n="stay.c.f3">Piscina privata 11 × 5 m, da maggio a settembre</li>
+            <li data-i18n="stay.c.f4">Giardino terrazzato e terrazza coperta per mangiare all'aperto</li>
+            <li data-i18n="stay.c.f5">Cani ammessi</li>
+          </ul>
+          <div class="stay-actions">
+            <a class="btn btn-primary btn-sm" href="https://to-tuscany.com/lacanonica/" target="_blank" rel="noopener" data-i18n="stay.site">Sito e prenotazioni</a>
+            <button type="button" class="btn btn-ghost btn-sm" data-map-show="paese" data-item="canonica" data-i18n="tf.show2">Vedi sulla mappa</button>
+          </div>
+        </article>
+        <article class="stay">
+          <h3 data-i18n="stay.v.title">Le villette di Brandeglio</h3>
+          <p data-i18n="stay.v.text">Quattro villette con una camera ciascuna, tra cui Ciliegio e La Vista, intorno a un giardino terrazzato con piscina condivisa.</p>
+          <ul class="stay-facts">
+            <li data-i18n="stay.v.f1">2 ospiti per villetta</li>
+            <li data-i18n="stay.v.f2">Piscina condivisa, da maggio a settembre</li>
+          </ul>
+          <div class="stay-actions">
+            <a class="btn btn-primary btn-sm" href="https://to-tuscany.com/brandeglio/ciliegio" target="_blank" rel="noopener" data-i18n="stay.site2">Sito e prenotazioni</a>
+            <button type="button" class="btn btn-ghost btn-sm" data-map-show="paese" data-item="villette" data-i18n="tf.show3">Vedi sulla mappa</button>
+          </div>
+        </article>
+        <div class="stay stay-near">
+          <h3 data-i18n="stay.near">Nei dintorni</h3>
+          <ul class="near-list">
+            <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Agriturismo%20Pian%20di%20Fiume%20Bagni%20di%20Lucca" target="_blank" rel="noopener">Agriturismo Pian di Fiume</a><span data-i18n="stay.n1">Agriturismo con ristorante a Pian di Ospedaletto, circa 7 km.</span></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&amp;query=B%26B%20La%20Margine%20Casoli%20Bagni%20di%20Lucca" target="_blank" rel="noopener">B&amp;B La Margine e Spa</a><span data-i18n="stay.n2">Bed &amp; breakfast con centro benessere a Casoli, in Val di Lima.</span></li>
+          </ul>
+          <p class="caption" data-i18n="stay.note">Questo sito non gestisce prenotazioni: contatta direttamente le strutture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FESTA DI SANTA MARIA -->
+  <section class="festa" id="festa">
+    <div class="wrap festa-grid">
+      <div class="festa-text">
+        <p class="eyebrow" data-i18n="festa.eyebrow">La festa del paese · settimana di Ferragosto</p>
+        <h2 data-i18n="festa.title">Festa di Santa Maria</h2>
+        <p data-i18n="festa.lead">Ogni anno, nella settimana di Ferragosto, Brandeglio festeggia Santa Maria Assunta, a cui è dedicata la chiesa del paese. Cinque giorni di celebrazioni e di festa in piazza, per chi vive in paese e per chi viene a trovarlo.</p>
+        <div class="days" aria-label="Date della festa: dal 12 al 16 agosto 2027" data-i18n-aria="festa.days.aria">
+          <div class="day"><span class="dow" data-i18n="d.thu">Gio</span><span class="num">12</span><span class="tag"></span></div>
+          <div class="day"><span class="dow" data-i18n="d.fri">Ven</span><span class="num">13</span><span class="tag"></span></div>
+          <div class="day"><span class="dow" data-i18n="d.sat">Sab</span><span class="num">14</span><span class="tag"></span></div>
+          <div class="day is-main"><span class="dow" data-i18n="d.sun">Dom</span><span class="num">15</span><span class="tag" data-i18n="d.assunta">Assunta</span></div>
+          <div class="day"><span class="dow" data-i18n="d.mon">Lun</span><span class="num">16</span><span class="tag"></span></div>
+        </div>
+        <p class="data" style="color:var(--band-muted);font-size:0.85rem" data-i18n="festa.year">Agosto 2027</p>
+        <ul>
+          <li data-i18n="festa.li1">Celebrazioni religiose in onore di Santa Maria Assunta</li>
+          <li data-i18n="festa.li2">Serate in piazza con cucina, musica e giochi</li>
+          <li data-i18n="festa.li3">Tornei, spettacoli e appuntamenti per tutte le età</li>
+        </ul>
+      </div>
+      <div class="festa-text">
+        <div class="download">
+          <!-- SOSTITUIRE: quando il PDF è pronto, mettere il file in files/ e cambiare href in
+               "files/programma-festa-santa-maria-2027.pdf", poi eliminare l'attributo data-placeholder. -->
+          <a class="btn btn-download" id="programma-link" href="#festa" data-placeholder="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            <span data-i18n="festa.download">Scarica il programma (PDF)</span>
+          </a>
+          <p class="note" id="programma-note" aria-live="polite" data-i18n="festa.note">Il programma dettagliato, giorno per giorno e con gli orari, è nel PDF.</p>
+        </div>
+        <dl class="festa-where">
+          <div><dt data-i18n="festa.where.k">Dove</dt><dd data-i18n="festa.where">Piazza Santa Maria e chiesa di Santa Maria Assunta, Brandeglio</dd></div>
+          <div><dt data-i18n="festa.when.k">Quando</dt><dd data-i18n="festa.when">Da giovedì 12 a lunedì 16 agosto 2027</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOVE SI TROVA -->
+  <section class="section" id="dove">
+    <div class="wrap split">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="dove.eyebrow">Dove si trova</p>
+        <h2 data-i18n="dove.title">Arrivare a Brandeglio</h2>
+        <p class="lead" data-i18n="dove.lead">L'unica strada del paese sale dalla statale dell'Abetone e del Brennero a Pian dell'Ospedaletto e arriva in Piazza Santa Maria, il punto di partenza per le passeggiate e il cuore della festa.</p>
+      </div>
+      <div class="map-card">
+        <h3 data-i18n="mappa.title">Piazza Santa Maria</h3>
+        <p data-i18n="mappa.addr">Brandeglio<br>Bagni di Lucca (LU), Toscana</p>
+        <p class="data">44.0000° N, 10.6373° E · 640 m</p>
+        <div class="map-links">
+          <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Brandeglio%2C%20Bagni%20di%20Lucca%20LU" target="_blank" rel="noopener" data-i18n="mappa.dir">Indicazioni stradali</a>
+          <a class="btn btn-ghost" href="https://www.openstreetmap.org/?mlat=44.0000&amp;mlon=10.6373#map=15/44.0000/10.6373" target="_blank" rel="noopener" data-i18n="mappa.osm">Apri la mappa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <span class="footer-name">Brandeglio</span>
+      <span data-i18n="footer.org">Bagni di Lucca (LU) · Toscana</span>
+      <span data-i18n="footer.unofficial">Sito informativo non ufficiale, realizzato da un privato.</span>
+      <a href="privacy.html" data-i18n="footer.privacy">Privacy e cookie</a>
+    </div>
+    <div>
+      <span data-i18n="footer.photos">Foto della chiesa e del paese: <a href="https://commons.wikimedia.org/wiki/Category:Santa_Maria_Assunta_(Brandeglio,_Bagni_di_Lucca)" target="_blank" rel="noopener">Luciano Bernardi</a>, licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons. Torrente Lima: <a href="https://commons.wikimedia.org/wiki/File:BagniDiLuccaLimaRiverBeforeBagni.JPG" target="_blank" rel="noopener">LigaDue</a>, CC BY-SA 4.0. Immagini ridimensionate.</span>
+      <span data-i18n="footer.map">Mappe: dati © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL); quote <a href="https://www.opentopodata.org" target="_blank" rel="noopener">Open Topo Data</a> / EU-DEM. Contrade e notizie storiche: <a href="https://www.comunebagnidilucca.com/downloads/piano-operativo/QA%20-%20Quadro%20Archeologico/QA.VI_REPORT%20STORICI/2_Brandeglio.pdf" target="_blank" rel="noopener">scheda «Brandeglio» del Comune di Bagni di Lucca</a>.</span>
+      <span data-i18n="footer.sources">Fonti: <a href="https://it.wikipedia.org/wiki/Brandeglio" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.bagnidilucca.info/en/il-territorio-di-bagni-di-lucca/brandeglio" target="_blank" rel="noopener">BagniDiLucca.info</a>, <a href="https://fondoambiente.it/luoghi/paese-di-brandeglio" target="_blank" rel="noopener">FAI – I Luoghi del Cuore</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/mappa-dati.js"></script>
+<script src="js/mappa.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
