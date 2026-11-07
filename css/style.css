@@ -29,7 +29,7 @@
   --trail-1: #b4472a;
   --trail-2: #0f7a72;
   --trail-3: #7546a6;
-  --bat: #26302a;
+  --bat: #26302a; --bat-alpha: 0.4;
 
   /* Tipografia */
   --font-display: "Marcellus", "Trajan Pro", "Cinzel", Georgia, serif;
@@ -76,7 +76,7 @@
     --trail-1: #f08a63;
     --trail-2: #4cc7b9;
     --trail-3: #bd94ec;
-    --bat: #dde3dd;
+    --bat: #dde3dd; --bat-alpha: 0.3;
     color-scheme: dark;
   }
 }
@@ -107,7 +107,7 @@
   --trail-1: #f08a63;
   --trail-2: #4cc7b9;
   --trail-3: #bd94ec;
-  --bat: #dde3dd;
+  --bat: #dde3dd; --bat-alpha: 0.3;
   color-scheme: dark;
 }
 
@@ -738,15 +738,23 @@ p { margin: 0; }
 .bats { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
 .bat {
   position: absolute; left: var(--x); top: var(--y); width: var(--w, 40px); aspect-ratio: 2 / 1;
-  background: var(--bat); opacity: 0.2;
+  background: var(--bat); opacity: var(--bat-alpha, 0.4);
   -webkit-mask: url(../img/pipistrello.svg) center / contain no-repeat; mask: url(../img/pipistrello.svg) center / contain no-repeat;
   transform: rotate(var(--r, 0deg));
   animation: bat-drift 11s ease-in-out var(--d, 0s) infinite alternate;
 }
-.festa .bat { background: var(--band-ink); opacity: 0.22; }
+.festa .bat { background: var(--band-ink); opacity: 0.34; }
 @keyframes bat-drift {
   from { transform: translate(0, 0) rotate(var(--r, 0deg)); }
   to { transform: translate(14px, -8px) rotate(calc(var(--r, 0deg) * -1)); }
 }
 @media (prefers-reduced-motion: reduce) { .bat { animation: none; } }
-@media (max-width: 760px) { .hero .bat:nth-child(-n+2), .festa .bat:nth-child(-n+2) { display: none; } }
+@media (max-width: 760px) {
+  /* su telefono il testo occupa tutta la larghezza: i pipistrelli vanno in alto a destra, sopra e accanto al titolo */
+  .hero .bat:nth-child(1) { left: auto; right: 8%; top: 64px; width: 52px; }
+  .hero .bat:nth-child(2) { left: auto; right: 4%; top: 122px; width: 30px; }
+  .hero .bat:nth-child(3) { left: auto; right: 3%; top: 14px; width: 36px; }
+  .festa .bat:nth-child(1) { left: auto; right: 8%; top: 22px; width: 50px; }
+  .festa .bat:nth-child(2) { left: auto; right: 34%; top: 24px; width: 30px; }
+  .festa .bat:nth-child(3) { display: none; }
+}
