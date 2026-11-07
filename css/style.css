@@ -748,7 +748,28 @@ p { margin: 0; }
   from { transform: translate(0, 0) rotate(var(--r, 0deg)); }
   to { transform: translate(14px, -8px) rotate(calc(var(--r, 0deg) * -1)); }
 }
-@media (prefers-reduced-motion: reduce) { .bat { animation: none; } }
+/* Volo d'ingresso: i pipistrelli arrivano dal lato del campanile sbattendo le ali, poi ondeggiano.
+   js/pipistrelli.js aggiunge .bats-js all'html e .is-in a ogni gruppo quando entra nello schermo. */
+.bats-js .bats .bat { opacity: 0; }
+.bats-js .bats.is-in .bat {
+  opacity: var(--bat-alpha, 0.4);
+  animation:
+    bat-in 1.9s cubic-bezier(0.2, 0.7, 0.25, 1) var(--in, 0s) backwards,
+    bat-flap 0.16s ease-in-out var(--in, 0s) 12 alternate,
+    bat-drift 11s ease-in-out var(--d, 0s) infinite alternate;
+}
+.bats-js .festa .bats.is-in .bat { opacity: 0.34; }
+.bats .bat:nth-child(1) { --in: 0s; }
+.bats .bat:nth-child(2) { --in: 0.25s; }
+.bats .bat:nth-child(3) { --in: 0.5s; }
+@keyframes bat-in {
+  from { translate: var(--fx, 320px) var(--fy, 160px); opacity: 0; }
+  20% { opacity: var(--bat-alpha, 0.4); }
+}
+@keyframes bat-flap { to { scale: 1 0.45; } }
+@media (prefers-reduced-motion: reduce) {
+  .bat, .bats-js .bats.is-in .bat { animation: none; }
+}
 @media (max-width: 760px) {
   /* su telefono il testo occupa tutta la larghezza: i pipistrelli vanno in alto a destra, sopra e accanto al titolo */
   .hero .bat:nth-child(1) { left: auto; right: 8%; top: 64px; width: 52px; }
