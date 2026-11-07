@@ -95,9 +95,9 @@
     { id: "nellora", group: "paese", cat: "toponimo", lat: 44.00184, lon: 10.63556, side: "l",
       name: { it: "A Nellora", en: "A Nellora" },
       text: { it: "Toponimo storico a nord-ovest del paese, verso il colle di Montaglione.", en: "A historic place name north-west of the village, towards the Montaglione hill." } },
-    { id: "bucini", group: "paese", cat: "via", lat: null, lon: null,
+    { id: "bucini", group: "paese", cat: "via", lat: 43.99966, lon: 10.63675, side: "b",
       name: { it: "Bucini", en: "Bucini" },
-      text: { it: "La contrada di via Bucini.", en: "The district of Via Bucini." } },
+      text: { it: "La contrada di via Bucini, che dalla piazza sale verso sud tra le ultime case del paese. È l'inizio della mulattiera per Boveglio.", en: "The district of Via Bucini, which climbs south from the square past the last houses of the village. It is where the mule track to Boveglio begins." } },
 
     { id: "montaglioni", group: "intorno", cat: "rilievo", lat: 44.00403, lon: 10.63293, side: "l",
       name: { it: "Montaglioni", en: "Montaglioni" },

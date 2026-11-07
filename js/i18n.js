@@ -56,6 +56,11 @@
     "tl.6": "The church acquires the organ that can still be heard today.",
     "tl.7": "The community statute is drawn up, the only surviving document of the village archive.",
     "tl.8": "The Poali firm restores the organ without changing its sound. In 1903 the church is remodelled and work begins on the crenellated bell tower.",
+    "stemma.img": "Historic coat of arms of Brandeglio: an arm clothed in red holding a silver sword with a gold hilt, on a blue field, in a baroque cartouche",
+    "stemma.title": "The village coat of arms",
+    "stemma.blazon": "Azure, an arm clothed gules issuing from the sinister flank, the hand grasping a sword argent hilted or, palewise.",
+    "stemma.text": "The sword may echo the village's name: one theory derives Brandeglio from the Lombard <i>brand</i>, \u00absword\u00bb; another from the Roman name <i>Blandius</i>.",
+    "stemma.note": "Historic coat of arms of the village. Image: <a href=\"https://www.turismobagnidilucca.com/brandeglio/\" target=\"_blank\" rel=\"noopener\">Pro Loco Bagni di Lucca</a>.",
     "people.title": "Notable people",
     "people.1": "Father Giovanni Maria Cioni of St. Ignatius Martyr",
     "people.2": "Father Raffaello Iacomini, Franciscan missionary",
@@ -168,7 +173,7 @@
     "footer.org": "Bagni di Lucca (LU) · Tuscany, Italy",
     "footer.photos": "Photos of the church and village: <a href=\"https://commons.wikimedia.org/wiki/Category:Santa_Maria_Assunta_(Brandeglio,_Bagni_di_Lucca)\" target=\"_blank\" rel=\"noopener\">Luciano Bernardi</a>, licensed <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons. Lima stream: <a href=\"https://commons.wikimedia.org/wiki/File:BagniDiLuccaLimaRiverBeforeBagni.JPG\" target=\"_blank\" rel=\"noopener\">LigaDue</a>, CC BY-SA 4.0. Images resized.",
     "footer.map": "Maps: data © <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap contributors</a> (ODbL); elevations <a href=\"https://www.opentopodata.org\" target=\"_blank\" rel=\"noopener\">Open Topo Data</a> / EU-DEM. Districts and historical notes: <a href=\"https://www.comunebagnidilucca.com/downloads/piano-operativo/QA%20-%20Quadro%20Archeologico/QA.VI_REPORT%20STORICI/2_Brandeglio.pdf\" target=\"_blank\" rel=\"noopener\">«Brandeglio» report by the Municipality of Bagni di Lucca</a>.",
-    "footer.sources":"Sources: <a href=\"https://it.wikipedia.org/wiki/Brandeglio\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>, <a href=\"https://www.bagnidilucca.info/en/il-territorio-di-bagni-di-lucca/brandeglio\" target=\"_blank\" rel=\"noopener\">BagniDiLucca.info</a>, <a href=\"https://fondoambiente.it/luoghi/paese-di-brandeglio\" target=\"_blank\" rel=\"noopener\">FAI – I Luoghi del Cuore</a>."
+    "footer.sources":"Sources: <a href=\"https://it.wikipedia.org/wiki/Brandeglio\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>, <a href=\"https://www.bagnidilucca.info/en/il-territorio-di-bagni-di-lucca/brandeglio\" target=\"_blank\" rel=\"noopener\">BagniDiLucca.info</a>, <a href=\"https://fondoambiente.it/luoghi/paese-di-brandeglio\" target=\"_blank\" rel=\"noopener\">FAI – I Luoghi del Cuore</a>, <a href=\"https://www.turismobagnidilucca.com/brandeglio/\" target=\"_blank\" rel=\"noopener\">Pro Loco Bagni di Lucca</a>."
   };
 
   /* Testi che non stanno nell'HTML (meta e messaggi). */
