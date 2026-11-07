@@ -176,11 +176,13 @@
     it: {
       description: document.querySelector('meta[name="description"]') ? document.querySelector('meta[name="description"]').getAttribute("content") : "",
       pending: "Il programma della Festa di Santa Maria 2027 sarà pubblicato qui a breve. Torna a trovarci!",
+      title: document.title,
       langGroup: "Lingua"
     },
     en: {
       description: "Brandeglio, a village in the Val di Lima, 640 metres above Bagni di Lucca, Tuscany. History, sights and the Feast of Santa Maria, 12–16 August.",
       pending: "The programme of the 2027 Feast of Santa Maria will be published here soon. Check back later!",
+      title: "Brandeglio (Bagni di Lucca, Tuscany) – trails, districts and the Feast of Santa Maria",
       langGroup: "Language"
     }
   };
@@ -223,6 +225,7 @@
     if (meta) meta.setAttribute("content", EXTRA[current].description);
     var group = document.querySelector(".lang-switch");
     if (group) group.setAttribute("aria-label", EXTRA[current].langGroup);
+    document.title = EXTRA[current].title;
 
     document.querySelectorAll(".lang-switch button").forEach(function (b) {
       b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === current));
